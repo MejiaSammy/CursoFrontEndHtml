@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Gidget</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+    <a href="#" class="logo">
+        <img src="images/logo.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">Inicio</a>
+        <a href="#pedidos">Pedidos</a>
+        <a href="#sabores">Sabores</a>
+        <a href="#adornos">Adornos</a>             
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>        
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+</header>
+
+<section class="home" id="home">
+    <div class="row">
+        <div class="content">
+            <h3>Endulza tus momentos</h3>
+        </div>
+    </div>
+</section>
+
+<section class="about" id="pedidos">
+    <h1 class="heading"> <span>Pedidos</span>
+        <div class="datatable-container">            
+            <table class="datatable">
+                <thead>
+                    <tr>                                               
+                        <th>Nombre</th>
+                        <th>Email</th>
+                        <th>Teléfono</th>
+                        <th>NúmPersona</th>
+                        <th>Sabor</th>
+                        <th>Adorno</th>
+                        <th>Descripción General</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>                        
+                        <td>Daniel Iplikci</td>
+                        <td>Danny123@gmail.com</td>
+                        <td>7774125896</td>
+                        <td>20</td>
+                        <td>Chocolate</td>
+                        <td>Fondant</td>
+                        <td>Pastel de un piso, leyenda "Felicidades Mamá"</td>
+                    </tr>
+                    <tr>                        
+                        <td>David Iplikci</td>
+                        <td>David_enano@gmail.com</td>
+                        <td>5542369852</td>
+                        <td>50</td>
+                        <td>Vainilla</td>
+                        <td>Ganache</td>
+                        <td>Pastel de dos pisos, leyenda "Felicidades Papá"</td>
+                    </tr>
+                    <tr>                        
+                        <td>Iliana Aslan</td>
+                        <td>Ili_aslan@hotmail.com</td>
+                        <td>7774152896</td>
+                        <td>150</td>
+                        <td>Zanahoria</td>
+                        <td>Queso Crema</td>
+                        <td>Tres pisos, sin texto</td>
+                    </tr>
+                    <tr>                        
+                        <td>Laura Korfali</td>
+                        <td>Lau_kor@gmail.com</td>
+                        <td>7778965423</td>
+                        <td>30</td>
+                        <td>Oreo</td>
+                        <td>Fondant</td>
+                        <td>Sin texto</td>
+                    </tr>
+                    <tr>                        
+                        <td>Alejandro Dincer</td>
+                        <td>AlexDincer@hotmail.com</td>
+                        <td>5557742311</td>
+                        <td>100</td>
+                        <td>Chocolate y Vainilla</td>
+                        <td>Ganache y Frutas</td>
+                        <td>"Feliz Dia Enano"</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+</section>
+
+<section class="sabores" id="sabores">
+    <h1 class="heading"> <span>Inventario Sabores</span> </h1>
+    <div class="box-container">
+
+        <div class="box">
+            <img src="img/chocolate.jpg" alt="">
+            <h3>Chocolate</h3>
+            <div class="price">10</div>
+            <a href="#" class="btn">Surtir</a>
+        </div>
+
+        <div class="box">
+            <img src="img/vainilla.jpg" alt="">
+            <h3>Vainilla</h3>
+            <div class="price">8</div>
+            <a href="#" class="btn">Surtir</a>
+        </div>
+
+        <div class="box">
+            <img src="img/fresa.jpg" alt="">
+            <h3>Fresa</h3>
+            <div class="price">15</div>
+            <a href="#" class="btn">Surtir</a>
+        </div>
+
+        <div class="box">
+            <img src="img/oreo.jpg" alt="">
+            <h3>Oreo</h3>
+            <div class="price">5</div>
+            <a href="#" class="btn">Surtir</a>
+        </div>
+
+        <div class="box">
+            <img src="img/cafe.jpg" alt="">
+            <h3>Café</h3>
+            <div class="price">10</div>
+            <a href="#" class="btn">Surtir</a>
+        </div>
+
+        <div class="box">
+            <img src="img/zanahoria.jpg" alt="">
+            <h3>Zanahoria</h3>
+            <div class="price">12</div>
+            <a href="#" class="btn">Surtir</a>
+        </div>
+    </div>
+</section>
+
+<section class="adornos" id="adornos">
+    <h1 class="heading"> <span>Inventario Adornos</span> </h1>
+    <div class="box-container">
+        
+        <div class="box">            
+            <div class="image">
+                <img src="img/cremabatida.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Crema Batida</h3>                
+                <div class="price">8</div>
+                <a href="#" class="btn">Surtir</a>
+            </div>
+        </div>
+
+        <div class="box">            
+            <div class="image">
+                <img src="img/fondant.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Fondant</h3>               
+                <div class="price">5</span></div>
+                <a href="#" class="btn">Surtir</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="img/ganache.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Ganache</h3>                
+                <div class="price">4</div>
+                <a href="#" class="btn">Surtir</a>
+            </div>
+        </div>
+
+        <div class="box">            
+            <div class="image">
+                <img src="img/merengue.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Merengue</h3>                
+                <div class="price">12</span></div>
+                <a href="#" class="btn">Surtir</a>
+            </div>
+        </div>
+
+        <div class="box">           
+            <div class="image">
+                <img src="img/creamcheese.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Queso Crema</h3>
+                <div class="price">11</span></div>
+                <a href="#" class="btn">Surtir</a>
+            </div>
+        </div>
+
+        <div class="box">            
+            <div class="image">
+                <img src="img/frutas.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Frutas</h3>
+                <div class="price">4</span></div>
+                <a href="#" class="btn">Surtir</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="footer">
+    <div class="credit">Síguenos en nuestras redes sociales</div>
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>       
+    </div>
+</section>
+
+</body>
+</html>
